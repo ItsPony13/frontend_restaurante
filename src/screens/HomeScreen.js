@@ -20,7 +20,7 @@ export default function HomeScreen({ navigation }) {
 
         <TouchableOpacity
           style={styles.card}
-          onPress={() => navigation.navigate("Reserva")}
+          onPress={() => navigation.navigate("Reservas")}
         >
           <MaterialIcons name="calendar-today" size={50} color="#10b981" />
           <Text style={styles.cardText}>Reservas</Text>
