@@ -5,7 +5,7 @@ import axios from "axios";
 //para ver la ip de tu maquina local corre ipconfig en cmd (windows) o ifconfig en mac/linux
 const API = axios.create({
   // baseURL: "http://192.168.100.6:3000",
-    baseURL:"http://10.229.179.7:3000",
+    baseURL:"http://10.49.72.7:3000",
   headers: {
     "Content-Type": "application/json",
   },
